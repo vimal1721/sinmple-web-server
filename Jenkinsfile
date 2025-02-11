@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/vimal1721/sinmple-web-server.git'
+                git branch: 'main', url: 'https://github.com/vimal1721/sinmple-web-server.git'
             }
         }
 
